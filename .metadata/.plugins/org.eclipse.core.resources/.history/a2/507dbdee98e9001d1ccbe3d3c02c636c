@@ -1,0 +1,11 @@
+package org.thanjavur;
+
+public class Father {
+	
+	void yield(){
+		System.out.println("yield paddy: ");
+	}
+	void share_assets(){
+		System.out.println("share assets: ");
+	}
+}

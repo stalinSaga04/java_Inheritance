@@ -1,0 +1,6 @@
+package usingWhileLoops;
+
+public class MultiplicationOf3And5 extends MultiplicationOf3{
+	MultiplicationOf3And5 m3and5 = new MultiplicationOf3And5();
+
+}

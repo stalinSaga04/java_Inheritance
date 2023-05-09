@@ -1,0 +1,48 @@
+package org.java;
+
+public class ArmstrongNumber {
+	int count_of_digit(int num) {
+		// TODO Auto-generated method stub
+		int count = 0;
+		while (num > 0) {
+			count = count +1;
+			num = num/10;
+		}
+		return count;
+	}
+	
+	public static void main(String[] args) {
+		ArmstrongNumber ap = new ArmstrongNumber();
+		int num = 1634;
+		int count = ap.count_of_digit(num);
+		System.out.println(count);
+		int result=ap.find_arms(num,count);
+		System.out.println(result);
+		if (num==result) {
+			System.out.println("a number is a armstrong number");
+		}
+		else {
+			System.out.println("not a armstrong number");
+		}
+		
+	}
+
+	 int find_arms(int num, int count) {
+		int sum = 0;
+		while (num > 0) {
+			int rem = num % 10;//getting last digit or rem from the num
+			sum = sum + pow(rem,count);
+			num = num/10;
+		}
+		return sum;
+	}
+
+	 int pow(int base, int power) { 			//base = rem,power = count;
+		 int box = 1;						// 
+		while (power > 0) {					// 4>0 3>0    2>0      1>0      0>0 false 
+			box = box*base;					// 1*4 1*4*4  1*4*4*4  4*4*4*4    came outside of the loop
+			power = power-1;				// 3  2        1        0
+		}
+		return box;
+	}
+}

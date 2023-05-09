@@ -1,0 +1,28 @@
+package usingWhileLoops;
+
+public class PrimeNumber {
+	public static void main(String[] args) {
+	
+		int count=0,prime_checker=2,num = 53;
+		//System.out.println(num/2);
+		while (prime_checker<num) {
+				if (num%prime_checker==0) {
+					count++;
+				
+				
+				
+				}
+				prime_checker++;
+			
+			if (count ==0 ) {
+				System.out.print(prime_checker+" ");
+			}
+			
+		
+	
+		
+		
+	}
+
+}
+}

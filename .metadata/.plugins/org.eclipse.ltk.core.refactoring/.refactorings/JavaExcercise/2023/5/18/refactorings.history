@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;usingWhileLoops.FiboniciSeries.java&apos; to &apos;LoopingDemo2.java&apos;&#x0A;- Original project: &apos;JavaExcercise&apos;&#x0A;- Original element: &apos;usingWhileLoops.FiboniciSeries.java&apos;&#x0A;- Renamed element: &apos;usingWhileLoops.LoopingDemo2.java&apos;" description="Rename compilation unit &apos;FiboniciSeries.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;usingWhileLoops{FiboniciSeries.java" name="LoopingDemo2.java" references="false" stamp="1683365852223" version="1.0"/>
+</session>

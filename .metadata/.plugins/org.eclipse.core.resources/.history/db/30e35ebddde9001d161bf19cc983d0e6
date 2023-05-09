@@ -1,0 +1,13 @@
+package usingWhileLoops;
+
+public class SameNumberNTime {
+	public static void main(String [] args) {
+		int num = 5;
+		int count = 1;
+		while(num>0) {
+			System.out.print("  "+count);
+			num = num -1;
+		}
+	}
+
+}

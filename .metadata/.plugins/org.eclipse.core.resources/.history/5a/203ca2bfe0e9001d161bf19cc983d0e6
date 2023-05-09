@@ -1,0 +1,21 @@
+package usingWhileLoops;
+
+public class OddAndEven {
+	
+	public static void main(String [] args) {
+		OddAndEven oe = new OddAndEven();
+		oe.odd_method(10);
+		
+	}
+	void odd_method(int num){
+		int count = 0;
+		while (num!=0) {
+			if (num%2!=0) {
+				System.out.print(num);
+			}
+			num = num-1;
+		}
+	}
+
+}
+

@@ -1,0 +1,22 @@
+package org.polymorphism;
+
+public class Child extends Parent{
+	@Override
+	void show() {
+		// TODO Auto-generated method stub
+		super.show();
+		System.out.println("child show");
+	}
+	@Override
+	void seen() {
+		// TODO Auto-generated method stub
+		super.seen();
+		System.out.println("child seen");
+	}
+	public static void main(String[] args) {
+		Child ch = new Child();
+		ch.show();
+		Parent p = new Parent();
+		p.show();
+	}
+}

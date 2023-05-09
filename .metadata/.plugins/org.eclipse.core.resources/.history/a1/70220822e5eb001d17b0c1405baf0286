@@ -1,0 +1,28 @@
+package usingWhileLoops;
+
+public class Binary2Decimal {
+public static void main(String[] args) {
+	Binary2Decimal b2deci = new Binary2Decimal();
+	b2deci.find_prime(10);
+}
+	private void find_prime(int num) {
+		int count=0,,init=2;
+		//boolean status=false;
+		while (init<num) {
+			if (init%2==0) {
+				count++;
+				//status=true;
+				break;
+			}
+			init++;
+			
+			if (count==0) {
+				System.out.println(init+" is a Prime number ");
+			}
+			
+		}
+		
+		//return status;
+	}
+
+}

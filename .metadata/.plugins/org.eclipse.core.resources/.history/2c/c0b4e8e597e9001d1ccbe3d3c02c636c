@@ -1,0 +1,7 @@
+package org.inheritance;
+
+import org.thanjavur.Father;
+
+public class Son extends Father {
+
+}

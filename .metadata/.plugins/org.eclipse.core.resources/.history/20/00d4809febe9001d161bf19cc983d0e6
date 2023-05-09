@@ -1,0 +1,23 @@
+package usingWhileLoops;
+
+public class DivisorOfGivenNum {
+	
+public static void main(String[] args) {
+	DivisorOfGivenNum divisor = new DivisorOfGivenNum();
+	divisor.find_divisor_of_number(10);
+	
+}
+ int find_divisor_of_number(int num) {
+	 int original = num;
+	 int count = 1;
+	 while (num>0) {
+		if (original%num==0) {
+			System.out.println(num);
+			
+		}
+		num = num-1;
+		count = count+1;
+	}
+	 return count;
+ }
+}

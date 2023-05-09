@@ -1,0 +1,16 @@
+package org.java;
+
+public class ArmstrongNumber {
+	int count_of_digit(int num) {
+		// TODO Auto-generated method stub
+		int count = 0;
+		while (num > 0) {
+			count = count +1;
+			num = num/10;
+		}
+		return count;
+	}
+	public static void main(String[] args) {
+		int num = 1634;
+	}
+}

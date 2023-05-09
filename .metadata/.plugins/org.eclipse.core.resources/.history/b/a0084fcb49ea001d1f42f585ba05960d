@@ -1,0 +1,12 @@
+package usingWhileLoops;
+
+public class PrimeNumber {
+	public static void main(String[] args) {
+		PrimeNumber pn = new PrimeNumber();
+		pn.find_prime(50);
+	} 
+	void find_prime(int num) {
+		System.out.println(num/2);
+	}
+
+}

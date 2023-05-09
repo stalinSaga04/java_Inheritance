@@ -1,0 +1,10 @@
+package org.inheritance;
+
+public class Hp extends Laptop{
+	public static void main(String[] args) {
+		Hp hp = new Hp();
+		hp.browse();
+		hp.do_program();
+		System.out.println(hp.harddisk);
+	}
+}

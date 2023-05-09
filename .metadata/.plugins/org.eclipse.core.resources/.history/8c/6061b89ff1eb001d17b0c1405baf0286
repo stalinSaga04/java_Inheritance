@@ -1,0 +1,10 @@
+package usingWhileLoops;
+
+public class FiboniciSeries {
+	public static void main(String[] args) {
+		FiboniciSeries fs = new FiboniciSeries();
+		fs.fibonici_nums(9);
+	}
+	void fibonici_nums
+
+}

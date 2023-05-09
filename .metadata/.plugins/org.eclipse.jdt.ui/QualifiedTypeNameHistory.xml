@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="usingWhileLoops.OddAndEven"/>
+    <fullyQualifiedTypeName name="usingWhileLoops.MultiplicationOf3"/>
+    <fullyQualifiedTypeName name="usingWhileLoops.MultiplicationOf3And5"/>
+    <fullyQualifiedTypeName name="usingWhileLoops.DivisorOfGivenNum"/>
+    <fullyQualifiedTypeName name="org.polymorphism.Child"/>
+    <fullyQualifiedTypeName name="usingWhileLoops.Binary2Decimal"/>
+    <fullyQualifiedTypeName name="usingWhileLoops.FiboniciSeries"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="usingWhileLoops.GroceryShop"/>
+</qualifiedTypeNameHistroy>

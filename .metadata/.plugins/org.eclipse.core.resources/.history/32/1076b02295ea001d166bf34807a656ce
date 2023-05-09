@@ -1,0 +1,28 @@
+package usingWhileLoops;
+
+public class PrimeNumber {
+	public static void main(String[] args) {
+	
+		PrimeNumber pn = new PrimeNumber();
+		pn.find_prime_number(19);
+		
+	}
+	void find_prime_number(int num) {
+		int count=0,init =2,num1=2,num2=100;
+		while (num1<=num2) {
+		while(init<=num/2){
+			if(num%init==0) {
+				count=count+1;
+				System.out.print(init+" ");
+			}
+			init++;	
+		}
+		num1=num1+1;
+		}
+		if (count==0) {
+			System.out.println(num+"is a prime number");
+		}
+		
+	}
+
+}

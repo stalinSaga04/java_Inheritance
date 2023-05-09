@@ -1,0 +1,18 @@
+package usingWhileLoops;
+
+public class OddAndEven {
+	
+	public static void main(String [] args) {
+		
+	}
+	void odd_method(int num){
+		while (num!=0) {
+			if (num%2!=0) {
+				System.out.println(num);
+			}
+			num = num-1;
+		}
+	}
+
+}
+

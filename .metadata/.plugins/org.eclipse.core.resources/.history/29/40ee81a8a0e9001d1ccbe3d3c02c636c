@@ -1,0 +1,7 @@
+package org.dubai;
+import org.thanjavur.Father;
+
+public class Daughter extends Father {
+	Daughter d = new Daughter(); 
+	
+}

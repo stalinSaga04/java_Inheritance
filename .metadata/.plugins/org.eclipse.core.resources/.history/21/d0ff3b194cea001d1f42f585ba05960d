@@ -1,0 +1,21 @@
+package usingWhileLoops;
+
+public class PrimeNumber {
+	public static void main(String[] args) {
+		PrimeNumber pn = new PrimeNumber();
+		pn.find_prime(53);
+	} 
+	void find_prime(int num) {
+		int i = 2,count=0;
+		System.out.println(num/2);
+		
+			while (num%i==0) {
+				count=count++;
+			}
+			i++;
+		if (count ==2) {
+			System.out.println(num);
+		}
+	}
+
+}
